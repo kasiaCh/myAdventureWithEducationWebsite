@@ -107,7 +107,7 @@ h1{
 }
 
 h2{
-    font-size: 1.2em;
+    font-size: 1.5em;
     color:#1a0d00;
     letter-spacing: 0.1em; 
 }
@@ -204,13 +204,13 @@ article{
     display:none;
 }
 
-.accordion label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+.accordion label:hover, .accordion [type=radio]:checked + label, .accordion [type=checkbox]:checked + label {
    background-color:  #4d0026;
     color: white;
     text-shadow:1px 1px 1px rgba(0,0,0,0.5)
 }
 
-.accordion .hobbyLabel:hover, .accordion [type=radio]:checked ~ .hobbyLabel, .accordion [type=checkbox]:checked ~ .hobbyLabel {
+.accordion .hobbyLabel:hover, .accordion [type=radio]:checked + .hobbyLabel, .accordion [type=checkbox]:checked + .hobbyLabel {
    background-color:  #c65353;
     color: white;
     text-shadow:1px 1px 1px rgba(0,0,0,0.5)
@@ -228,10 +228,10 @@ article{
 
 
 
- [type=radio]:checked ~ label ~ .content, [type=checkbox]:checked ~ label ~ .content {
+ [type=radio]:checked + label  +.content, [type=checkbox]:checked + label + .content {
     max-height:4000px;
-    -webkit-transition: max-height 2s ease-out;
-    -moz-transition: max-height 2s ease-out;
+    -webkit-transition: max-height 1s ease-out;
+    -moz-transition: max-height 1s ease-out;
     
 }
 
