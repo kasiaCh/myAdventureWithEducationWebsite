@@ -1,0 +1,171 @@
+#myHobby{
+    width:100%;
+    margin:0;
+    background-color: white;
+}
+
+#myHobby h3{
+     font-size: 2em;
+    line-height: 3em;
+    margin:0;
+    color: #333333;
+    font-family: Adam-Cg-Pro;
+}
+
+.introField{
+    font-size: 1.3em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.hobbyLabel{
+   display: block;
+    border-color: #c65353;
+    border: solid;
+    border-width: 0.1em;
+    color: #c65353;
+    padding-top: 1em;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    width: 5em;
+    height: 3.5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Lato-Light;
+    text-transform: uppercase;
+    transition-property: color, background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+  
+}
+
+
+
+.hobbyDiv:hover{
+    width: 5em;
+    height: 5em;
+    background-color:#c65353;
+    color: white;
+      
+}
+
+.bookTitle{
+    font-size: 2em;
+    border-style: dotted;
+    border-color: #ffd6cc;
+    line-height: 1.5em;
+    border-width: 0.1em;
+     margin: auto;
+    padding-bottom: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: Lato-Thin;
+        margin: 0;
+     font-weight: normal;
+}
+
+
+.flexContainer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+     align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+[class*="flexBookTitle"]{
+    order:1;
+    width:58.33%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    border-style: dotted;
+    border-color: #ffd6cc;
+    line-height: 1.5em;
+    border-width: 0.1em;
+    padding-bottom: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: Lato-Thin;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.author{
+    font-size: 0.7em;
+   
+}
+
+.sep{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+[class*="flexBookDescription"]{
+    order:2;
+    width:100%;
+    font-family: Lato-light;
+    margin-top: 0;
+    line-height: 1.5em;
+   
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+
+[class*="flexBookDescription"] p{
+    margin: 0;
+}
+
+[class*="flexEdColumn"]{
+    
+    width:100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+    .flex-col-1 {width: 8.33%;}
+    .flex-col-2 {width: 16.66%;}
+    .flex-col-3 {width: 25%;}
+    .flex-col-4 {width: 33.33%;}
+    .flex-col-5 {width: 41.66%;}
+    .flex-col-6 {width: 50%;}
+    .flex-col-7 {width: 58.33%;}
+    .flex-col-8 {width: 66.66%;}
+    .flex-col-9 {width: 75%;}
+    .flex-col-10 {width: 83.33%;}
+    .flex-col-11 {width: 91.66%;}
+    .flex-col-12 {width: 100%;}
+   
+    .flexBookTitle1{
+        order:1;
+        
+        
+    }
+    
+    .flexBookTitle2{
+        order:2;
+     
+    }
+    
+    .flexBookDescription1{
+        order:1;
+        
+      
+    }
+    
+    .flexBookDescription2{
+        order:2;
+       
+    }
+    
+  
+}

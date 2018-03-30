@@ -1,0 +1,113 @@
+#myEducation h3{
+  
+    font-size: 2em;
+    line-height: 3em;
+     margin: 0;
+    color: #333333;
+    font-family: Adam-Cg-Pro;
+   
+    
+    
+    
+}
+
+#myEducation{
+    width:100%;
+    margin:0;
+    background-color:whitesmoke;
+  
+   
+}
+
+.semesterLabel{
+    display: block;
+    border-color: #4d0026;
+    border-style: solid;
+    border-width: 0.1em;
+    color: #4d0026;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 9em;;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    justify-content: center;
+    transition-property: color, background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    font-family: Lato-Light;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.subjectTitle{
+    color: #330000;
+    font-size: 1.5em;
+    font-family: SourceSerifPro-Light;
+    font-weight: 500;
+    
+	font-variant: normal;;
+    margin-bottom: 1.3em;
+    border-left-style: solid;
+    border-left-width: 0.3em;
+    border-color: #b3003b;
+    padding-left: 0.3em;
+    color: #403426;
+    
+    
+    
+   
+}
+
+.tableTitle{
+   font-size: 1.2em;
+    line-height: 3em;
+  
+    font-family: Lato-Light;
+ 
+    
+}
+
+#myEducation .textField{
+    border-style: groove;
+   
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.2em;
+    line-height: 1.5em;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    background-color: 	#f2f2f2;
+    font-family: Lato-light;
+    border-width:0.2em;
+    border: 3px dotted #e5e5e5;
+	border-bottom: 3px dotted #e5e5e5;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5;
+     
+    
+}
+
+.whatIKnowList{
+    padding-left: 1em;
+    
+}
+
+#myEducation .textContainer{
+    margin-bottom: 1.5em;
+}
+
+#myEducation .textField{
+    margin-bottom: 2em;
+}
+
+
+
+
+
+
